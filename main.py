@@ -8,7 +8,7 @@ def even_list(int_list: List[int]) -> List[int]:
     Determines if a number is even and return an even list.
     """
     # TODO: Implement even_list
-    pass
+    return [n for n in int_list if n % 2 == 0]
 
 
 # Skeleton code for sum_of_squares_of_even
